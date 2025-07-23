@@ -15,7 +15,7 @@ Virtual environment (recommended)
 
 ```bash
 
-git clone git@github.com:your-username/song-manager-backend.git
+git clone git@github.com:nebiyuu1954/song-manager-backend.git
 cd song-manager-backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -90,7 +90,7 @@ GET /api/songs/:id/: Retrieve song.
 #### Update an item
 
 ``` http
-PUT/PATCH /api/songs/:id/: Update song.
+PUT /PATCH /api/songs/:id/: Update song.
 ```
 
 #### Delete an item
